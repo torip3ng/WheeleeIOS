@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  WHLControlViewController.h
 //  Wheele
 //
 //  Created by Yaroslav Bulda on 22/02/16.
 //  Copyright © 2016 torip3ng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface WHLControlViewController : BaseViewController
 
 @end
-

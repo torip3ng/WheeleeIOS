@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		2B01B45E1C7B6E3B00052B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B45D1C7B6E3B00052B3A /* main.m */; };
 		2B01B4611C7B6E3B00052B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4601C7B6E3B00052B3A /* AppDelegate.m */; };
-		2B01B4641C7B6E3B00052B3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4631C7B6E3B00052B3A /* ViewController.m */; };
-		2B01B4671C7B6E3B00052B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B01B4651C7B6E3B00052B3A /* Main.storyboard */; };
-		2B01B4691C7B6E3B00052B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B01B4681C7B6E3B00052B3A /* Assets.xcassets */; };
 		2B01B46C1C7B6E3B00052B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B01B46A1C7B6E3B00052B3A /* LaunchScreen.storyboard */; };
+		2B01B4741C7B6F4D00052B3A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B01B4731C7B6F4D00052B3A /* CoreBluetooth.framework */; };
+		2B01B4781C7B6FD100052B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B01B4771C7B6FD100052B3A /* Assets.xcassets */; };
+		2B01B49B1C7B771500052B3A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4961C7B771500052B3A /* BaseViewController.m */; };
+		2B01B49C1C7B771500052B3A /* WHLControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4991C7B771500052B3A /* WHLControlViewController.m */; };
+		2B01B49D1C7B771500052B3A /* WHLControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B01B49A1C7B771500052B3A /* WHLControlViewController.xib */; };
+		2B01B4A01C7B780300052B3A /* WHLBluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B49F1C7B780300052B3A /* WHLBluetoothController.m */; };
+		2B01B4A31C7B78E100052B3A /* WHLControlVCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4A21C7B78E100052B3A /* WHLControlVCViewModel.m */; };
+		2B01B4B41C7CD6FC00052B3A /* WHLJoyControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4B31C7CD6FC00052B3A /* WHLJoyControlView.m */; };
+		CCAFAE735722ACA03239C1BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D4977489886038A6EA908E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,24 @@
 		2B01B45D1C7B6E3B00052B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B01B45F1C7B6E3B00052B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B01B4601C7B6E3B00052B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B01B4621C7B6E3B00052B3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B01B4631C7B6E3B00052B3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2B01B4661C7B6E3B00052B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2B01B4681C7B6E3B00052B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B01B46B1C7B6E3B00052B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B01B46D1C7B6E3B00052B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B01B4731C7B6F4D00052B3A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2B01B4771C7B6FD100052B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B01B4951C7B771500052B3A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2B01B4961C7B771500052B3A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2B01B4981C7B771500052B3A /* WHLControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLControlViewController.h; sourceTree = "<group>"; };
+		2B01B4991C7B771500052B3A /* WHLControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLControlViewController.m; sourceTree = "<group>"; };
+		2B01B49A1C7B771500052B3A /* WHLControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHLControlViewController.xib; sourceTree = "<group>"; };
+		2B01B49E1C7B780300052B3A /* WHLBluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLBluetoothController.h; sourceTree = "<group>"; };
+		2B01B49F1C7B780300052B3A /* WHLBluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLBluetoothController.m; sourceTree = "<group>"; };
+		2B01B4A11C7B78E100052B3A /* WHLControlVCViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLControlVCViewModel.h; sourceTree = "<group>"; };
+		2B01B4A21C7B78E100052B3A /* WHLControlVCViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLControlVCViewModel.m; sourceTree = "<group>"; };
+		2B01B4B21C7CD6FC00052B3A /* WHLJoyControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLJoyControlView.h; sourceTree = "<group>"; };
+		2B01B4B31C7CD6FC00052B3A /* WHLJoyControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLJoyControlView.m; sourceTree = "<group>"; };
+		2D70E08D30F450B39897C8D0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3388DF5270F06B11B3951FBD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		96D4977489886038A6EA908E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B01B4741C7B6F4D00052B3A /* CoreBluetooth.framework in Frameworks */,
+				CCAFAE735722ACA03239C1BD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29BCAE97E234C2D42079B6B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D70E08D30F450B39897C8D0 /* Pods.debug.xcconfig */,
+				3388DF5270F06B11B3951FBD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2B01B4501C7B6E3B00052B3A = {
 			isa = PBXGroup;
 			children = (
 				2B01B45B1C7B6E3B00052B3A /* Wheele */,
 				2B01B45A1C7B6E3B00052B3A /* Products */,
+				29BCAE97E234C2D42079B6B8 /* Pods */,
+				9354B744BAB5F32A13DF0F99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +91,8 @@
 			children = (
 				2B01B45F1C7B6E3B00052B3A /* AppDelegate.h */,
 				2B01B4601C7B6E3B00052B3A /* AppDelegate.m */,
-				2B01B4621C7B6E3B00052B3A /* ViewController.h */,
-				2B01B4631C7B6E3B00052B3A /* ViewController.m */,
-				2B01B4651C7B6E3B00052B3A /* Main.storyboard */,
-				2B01B4681C7B6E3B00052B3A /* Assets.xcassets */,
-				2B01B46A1C7B6E3B00052B3A /* LaunchScreen.storyboard */,
-				2B01B46D1C7B6E3B00052B3A /* Info.plist */,
+				2B01B4751C7B6FC200052B3A /* Classes */,
+				2B01B4761C7B6FC200052B3A /* Resources */,
 				2B01B45C1C7B6E3B00052B3A /* Supporting Files */,
 			);
 			path = Wheele;
@@ -74,9 +101,86 @@
 		2B01B45C1C7B6E3B00052B3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B01B46A1C7B6E3B00052B3A /* LaunchScreen.storyboard */,
+				2B01B46D1C7B6E3B00052B3A /* Info.plist */,
 				2B01B45D1C7B6E3B00052B3A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B01B4751C7B6FC200052B3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4821C7B76F100052B3A /* Controllers */,
+				2B01B4B01C7CD6A500052B3A /* CustomViews */,
+				2B01B4941C7B771500052B3A /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2B01B4761C7B6FC200052B3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4771C7B6FD100052B3A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B01B4821C7B76F100052B3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B49E1C7B780300052B3A /* WHLBluetoothController.h */,
+				2B01B49F1C7B780300052B3A /* WHLBluetoothController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B01B4941C7B771500052B3A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4971C7B771500052B3A /* ControlViewController */,
+				2B01B4951C7B771500052B3A /* BaseViewController.h */,
+				2B01B4961C7B771500052B3A /* BaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B01B4971C7B771500052B3A /* ControlViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4981C7B771500052B3A /* WHLControlViewController.h */,
+				2B01B4991C7B771500052B3A /* WHLControlViewController.m */,
+				2B01B49A1C7B771500052B3A /* WHLControlViewController.xib */,
+				2B01B4A11C7B78E100052B3A /* WHLControlVCViewModel.h */,
+				2B01B4A21C7B78E100052B3A /* WHLControlVCViewModel.m */,
+			);
+			path = ControlViewController;
+			sourceTree = "<group>";
+		};
+		2B01B4B01C7CD6A500052B3A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4B11C7CD6A500052B3A /* JoyControlView */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		2B01B4B11C7CD6A500052B3A /* JoyControlView */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4B21C7CD6FC00052B3A /* WHLJoyControlView.h */,
+				2B01B4B31C7CD6FC00052B3A /* WHLJoyControlView.m */,
+			);
+			path = JoyControlView;
+			sourceTree = "<group>";
+		};
+		9354B744BAB5F32A13DF0F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B01B4731C7B6F4D00052B3A /* CoreBluetooth.framework */,
+				96D4977489886038A6EA908E /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B01B4701C7B6E3B00052B3A /* Build configuration list for PBXNativeTarget "Wheele" */;
 			buildPhases = (
+				FC7D0DB0A58B2E01869957D8 /* Check Pods Manifest.lock */,
 				2B01B4551C7B6E3B00052B3A /* Sources */,
 				2B01B4561C7B6E3B00052B3A /* Frameworks */,
 				2B01B4571C7B6E3B00052B3A /* Resources */,
+				95B2E418C42579FDDE1612F2 /* Embed Pods Frameworks */,
+				B414C943A41BF5558D7F5DFA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,11 +212,13 @@
 		2B01B4511C7B6E3B00052B3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WHL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = torip3ng;
 				TargetAttributes = {
 					2B01B4581C7B6E3B00052B3A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6YT52CJLC6;
 					};
 				};
 			};
@@ -136,21 +245,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B01B49D1C7B771500052B3A /* WHLControlViewController.xib in Resources */,
+				2B01B4781C7B6FD100052B3A /* Assets.xcassets in Resources */,
 				2B01B46C1C7B6E3B00052B3A /* LaunchScreen.storyboard in Resources */,
-				2B01B4691C7B6E3B00052B3A /* Assets.xcassets in Resources */,
-				2B01B4671C7B6E3B00052B3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95B2E418C42579FDDE1612F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B414C943A41BF5558D7F5DFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7D0DB0A58B2E01869957D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B01B4551C7B6E3B00052B3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B01B4641C7B6E3B00052B3A /* ViewController.m in Sources */,
+				2B01B49C1C7B771500052B3A /* WHLControlViewController.m in Sources */,
+				2B01B4A31C7B78E100052B3A /* WHLControlVCViewModel.m in Sources */,
+				2B01B4B41C7CD6FC00052B3A /* WHLJoyControlView.m in Sources */,
+				2B01B4A01C7B780300052B3A /* WHLBluetoothController.m in Sources */,
 				2B01B4611C7B6E3B00052B3A /* AppDelegate.m in Sources */,
+				2B01B49B1C7B771500052B3A /* BaseViewController.m in Sources */,
 				2B01B45E1C7B6E3B00052B3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +319,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B01B4651C7B6E3B00052B3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B01B4661C7B6E3B00052B3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B01B46A1C7B6E3B00052B3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -259,8 +412,10 @@
 		};
 		2B01B4711C7B6E3B00052B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D70E08D30F450B39897C8D0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Wheele/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.torip3ng.Wheele;
@@ -270,8 +425,10 @@
 		};
 		2B01B4721C7B6E3B00052B3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3388DF5270F06B11B3951FBD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Wheele/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.torip3ng.Wheele;
@@ -298,6 +455,7 @@
 				2B01B4721C7B6E3B00052B3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
